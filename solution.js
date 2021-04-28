@@ -42,7 +42,10 @@
   }
 
 var arr = process.argv.slice(2);
-var arr2 = parseInt(arr);
+for(int i = 0; i < length(arr); i++)
+{
+  var arr2[i] = parseInt(arr[i]);
+}
 solution(arr2);
 
 </script>
